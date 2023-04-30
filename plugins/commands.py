@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('𝑶𝑾𝑵𝑬𝑹 ❤️ ', url='https://t.me/F9Videos')
+                InlineKeyboardButton('𝑶𝑾𝑵𝑬𝑹 ❤️ ', url='https://t.me/F9Devs')
             ],
             
            
@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
            
-            InlineKeyboardButton('𝑶𝑾𝑵𝑬𝑹 ❤️', url='https://t.me/F9Videos')
+            InlineKeyboardButton('𝑶𝑾𝑵𝑬𝑹 ❤️', url='https://t.me/F9DEVS')
             ],[
             InlineKeyboardButton('HΞLᎮ ℹ️', callback_data='help'),
             InlineKeyboardButton('ΛBOUT 🙂', callback_data='about')
@@ -95,7 +95,7 @@ async def start(client, message):
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
            
-            InlineKeyboardButton('𝑶𝑾𝑵𝑬𝑹 ❤️', url='https://t.me/F9Videos')
+            InlineKeyboardButton('𝑶𝑾𝑵𝑬𝑹 ❤️', url='https://t.me/F9devs')
             ],[
             InlineKeyboardButton(' HΞLᎮ ℹ️', callback_data='help'),
             InlineKeyboardButton(' ΛBOUT 🙂', callback_data='about')
@@ -248,7 +248,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝙹𝙾𝙸𝙽 🔥', url='https://t.me/F9Videos') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('𝙹𝙾𝙸𝙽 🔥', url='https://t.me/F9devs') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
